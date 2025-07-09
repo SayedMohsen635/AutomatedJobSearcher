@@ -22,7 +22,7 @@ wb.open_new_tab("https://www.linkedin.com/feed/")
 # 2- Search For The Job
 pag.moveTo(564, 141, 5)
 pag.click()
-pag.write("Embedded Linux")
+pag.write("Embedded Linux")                   # Specify the job you want
 pag.press("enter")
 pag.moveTo(500, 199, 4)
 pag.click()
